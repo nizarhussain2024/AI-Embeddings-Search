@@ -34,3 +34,4 @@ def apply_time_decay(results: List[Dict], decay_factor: float = 0.1) -> List[Dic
     results.sort(key=lambda x: x.get('relevance_score', 0.0), reverse=True)
     return results
 
+
